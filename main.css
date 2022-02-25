@@ -3,7 +3,40 @@
   padding: 0;
   box-sizing: border-box;
 }
-.navbar-list {
+.header {
   display: flex;
   justify-content: space-between;
+  padding: 20px 30px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 30px;
+}
+.first-list {
+  border: 15px solid #e7e7e7;
+  background-color: #e7e7e7;
+  border-radius: 2em;
+  width: 300px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  color: #707070;
+}
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  padding: 30px 70px;
+}
+.all-list {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.click {
+  border: 10px solid yellow;
+  background-color: yellow;
+  border-radius: 2em;
+  width: 120px;
+  padding: 20px 20px;
 }
